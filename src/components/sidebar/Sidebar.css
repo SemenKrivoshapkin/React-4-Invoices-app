@@ -1,0 +1,49 @@
+.sidebar_bg {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    width: 100px;
+    height: 100vh;
+    background-color: rgb(66, 66, 114);
+    left: 0;
+    top: 0;
+    border-radius: 0 15px 15px 0;
+    z-index: 1201;
+}
+
+
+
+.sidebar_circle_block {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(113, 75, 215);
+    border-radius: 0 15px 15px 0;
+    cursor: pointer;
+}
+
+.avatar_mode_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.sidebar_avatar_block {
+    width: 100px;
+    height: 80px;
+    border-top: solid 0.5px #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar_img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    text-align: center;
+}

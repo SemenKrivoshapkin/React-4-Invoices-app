@@ -1,0 +1,67 @@
+.invoice__form {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(10, 10, 49);
+    height: 100vh;
+    color: #fff;
+}
+
+.invoice__form h3 {
+    margin-left: 20px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.invoice_form_container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.invoice_form_container input {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background-color: rgb(167,167,225);
+}
+
+.invoice_form_container h4 {
+    margin: 20px 20px;
+}
+
+.invoice_form_address {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.invoice_form_address_item {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    
+}
+
+.invoice_form_item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100%;
+}
+
+.invoice_form_item_input {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.item_quantity {
+    width: 40px;
+}
+
+.item_price {
+    width: 80px;
+}

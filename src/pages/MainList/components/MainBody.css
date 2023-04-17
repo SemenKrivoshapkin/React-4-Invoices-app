@@ -1,0 +1,21 @@
+
+
+.mainBody_inner {
+    display: flex;
+    flex-direction: row;
+    gap: 300px;
+}
+
+.mainBody_select {
+    background: none;
+    border: none;
+    color: #fff;
+}
+
+
+.mainBody_list {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap:  20px;
+}

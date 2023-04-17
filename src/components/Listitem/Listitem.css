@@ -1,0 +1,16 @@
+.list_item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding: 15px 20px;
+    background-color: rgb(66, 66, 114);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.list_item b {
+    color: #fff;
+    text-transform: uppercase;
+}

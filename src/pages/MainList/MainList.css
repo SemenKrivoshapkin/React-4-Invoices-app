@@ -1,0 +1,10 @@
+
+
+.mainlist_bg {
+    width: 100vw;
+    height: 200vh;
+    background-color: rgb(10, 10, 49);
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
